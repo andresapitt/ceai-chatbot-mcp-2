@@ -7,12 +7,18 @@ key is ever exposed in the browser.
 ```
 docs/          static chat UI  -> deploy to GitHub Pages
 api/chat.js    serverless proxy -> deploy to Vercel
-data/          starter FAQ content (placeholder — verify before going live)
+data/          FAQ content
 ```
 
-**Important:** `data/dunnes-faq-starter.csv` contains illustrative example answers,
-not verified current Dunnes Stores policy. Replace with real, confirmed content
-before using this with real customers.
+**Content source:** `data/dunnes-faq-starter.csv` is paraphrased from the "How to
+Shop" section of the official Dunnes Stores grocery FAQ
+(dunnesstoresgrocery.com/sm/delivery/rsid/258/faq), covering the online ordering
+flow (account setup, basket, substitutions, vouchers, alcohol hours, checkout,
+amending orders). Other sections of that FAQ (Registering, My Order, Checkout &
+Payments, Gift Card, Delivery & Returns, My Account, Technical Help, Click &
+Collect) aren't included yet — add them the same way if needed. Re-check against
+the live site periodically since policies (e.g. voucher terms, alcohol hours) can
+change.
 
 ## 1. Set up the Google Sheet
 

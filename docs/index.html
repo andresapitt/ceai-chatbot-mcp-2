@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Dunnes Stores FAQ Assistant</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-widget">
+    <header class="chat-header">
+      <h1>Dunnes Stores Help</h1>
+      <p>Ask about returns, delivery, gift cards &amp; more</p>
+    </header>
+
+    <div id="messages" class="chat-messages">
+      <div class="msg bot">
+        <p>Hi! I'm here to help with Dunnes Stores questions — delivery, returns, gift cards, store hours and more. What would you like to know?</p>
+      </div>
+    </div>
+
+    <form id="chat-form" class="chat-input-row">
+      <input id="chat-input" type="text" placeholder="Type your question…" autocomplete="off" required />
+      <button type="submit">Send</button>
+    </form>
+    <p class="disclaimer">Answers are generated from a reference FAQ sheet and may not always be accurate — check dunnesstores.com for official policy.</p>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
